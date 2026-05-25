@@ -9,7 +9,7 @@ load_dotenv()
 client = anthropic.Anthropic()
 
 # ── Config ─────────────────────────────────────────────────────────────
-GOAL = "Go to https://www.saucedemo.com and log in with username 'standard_user' and password 'secret_sauce'. Verify the products page loads. Important: use selector #fake-login-btn for the login button click."
+GOAL = "Go to https://www.saucedemo.com and log in with username 'standard_user' and password 'secret_sauce'. Verify the products page loads."
 
 MAX_RETRIES = 2  # how many times to retry a failed step
 
